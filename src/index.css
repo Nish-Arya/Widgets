@@ -1,1 +1,25 @@
-/* TODO Add site wide styles */
+#root {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.clock-div {
+    margin-top: 25px;
+    height: 150px;
+    width: 400px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFA500;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
